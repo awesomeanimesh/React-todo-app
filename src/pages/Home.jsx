@@ -26,7 +26,7 @@ const updateHandler=async(id)=>{
   } catch (error) {
     toast.error(error.response.data.message)
   }
-toast.success(id)
+
 }
 const deleteHandler=async(id)=>{
 
