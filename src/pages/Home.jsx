@@ -40,7 +40,7 @@ const deleteHandler=async(id)=>{
     toast.error(error.response.data.message)
   }
   
-toast.success(id)
+
 }
     const submitHandler=async(e)=>{
         e.preventDefault();
